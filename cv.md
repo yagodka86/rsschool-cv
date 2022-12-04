@@ -4,7 +4,7 @@
 
 **Telegram**: @yuliyalezhnyuk
 
-**Email**: yuliyalezhnyuk@hotmail.com
+**Email**: [yuliyalezhnyuk@hotmail.com](mailto:)
 
 ------------------------------
 ## About me:
@@ -39,5 +39,3 @@ I don't have any sample code yet.
 * Russian - Native
 * English - B1-B2
 * Spanish - A1-A2
-
-
