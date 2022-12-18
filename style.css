@@ -1,0 +1,201 @@
+* {
+	box-sizing: border-box;
+}
+
+html {
+	scroll-behavior: smooth;
+}
+
+body {
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+	min-width: 320px;
+	min-height: 100vh;
+	margin: 0;
+	padding: 0;
+	font-family: 'Merriweather Sans', sans-serif;
+	font-size: 18px;
+	font-weight: 400;
+	line-height: 1.3;
+	background-color: #F1F1E6;
+}
+
+.header {
+	background-color: #003952;
+}
+
+.footer {
+background-color: #003952;
+}
+
+.container {
+	max-width: 1440px;
+	margin: 0 auto;
+}
+
+.nav-list {
+	display: flex;
+	justify-content: flex-end;
+	align-items: center;
+	list-style: none;
+}
+
+.nav-link {
+	padding: 0 20px;
+	line-height: 50px;
+	text-decoration: none;
+	color: #ffffff;
+	text-transform: uppercase;
+	letter-spacing: 1px;
+}
+
+.main-container {
+	display: flex;
+	justify-content: space-between;
+	color: #000E14;
+}
+
+.left-section {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-between;
+	width: 38%;
+	padding: 30px;
+}
+
+.right-section {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: space-around;
+	width: 62%;
+	padding: 50px;
+}
+
+.about_me, .contacts, .languages, .projects, .code, .title, .skills {
+	display: flex;
+	flex-direction: column;
+	flex-wrap: wrap;
+	align-items: center;
+	justify-content: center;
+}
+
+.code-style {
+	margin-left: -600px;
+}
+
+.profile-photo {
+	margin-top: 20px;
+	margin-bottom: 15px;
+	border: 10px solid #003952;
+	border-radius: 50%;
+}
+
+h1 {
+	margin: 0;
+	font-size: 32px;
+	letter-spacing: 3px;
+}
+
+h2 {
+	font-size: 26px;
+	letter-spacing: 1px;
+}
+
+h3 {
+	margin: 0;
+	text-align: center;
+	font-size: 20px;
+	letter-spacing: 1px;
+	text-decoration: underline;
+	text-decoration-color: #00C6B1;
+	text-decoration-thickness: 4px;
+	text-transform: uppercase;
+}
+
+p {
+	text-align: center;
+}
+
+.contacts-list, .lang_list, .course-list {
+	display: flex;
+	flex-direction: column;
+	align-items: baseline;
+	margin: 0;
+	padding-left: 0;
+	list-style: none;
+}
+
+.skills_list {
+	display: flex;
+	flex-direction: row;
+	flex-wrap: wrap;
+	justify-content: space-around;
+}
+
+.li-item {
+	display: flex;
+	align-items: center;
+	justify-content: center;
+	margin-bottom: 0;
+}
+
+.contact_img, .course_img {
+	margin-right: 20px;
+}
+
+.contact_img {
+	width: 35px;
+	height: 35px;
+}
+
+.skill_img {
+	width: 75px;
+	height: 75px;
+}
+
+.lang-type {
+	margin-right: 20px;
+	height: 35px;
+	border: 5px solid #00648F;
+	border-radius: 20%;
+	text-transform: uppercase;
+	color: #00648F;
+	font-weight: 700;
+}
+
+.caption {
+	text-align: center;
+	font-size: 14px;
+}
+
+.project-link {
+	color: #000E14;
+}
+
+.footer-container {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	padding: 20px;
+	color: #ffffff;
+	font-size: 16px;
+}
+.github-link {
+	display: flex;
+	align-items: center;
+	text-decoration: none;
+	color: #ffffff;
+}
+
+.filter-white {
+	filter: invert(100%) sepia(100%) saturate(2%) hue-rotate(252deg) brightness(110%) contrast(101%);
+}
+
+
+
+
